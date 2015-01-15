@@ -19,11 +19,11 @@ class test
 		//TODO: new mysqli() or PDO,use OO operate
 		//PHP 5.5<=
 		/*
-		$user = 'root';
-		$password = 'root';
+		$user = 'yuancheng';
+		$password = 'testuse';
 		$db = 'test';
-		$host = '127.0.0.1';
-		$port = 8889;
+		$host = '121.41.46.89';
+		$port = 3306;
 		$link = mysqli_connect(
 			"$host:$port", 
 			$user, 
@@ -37,11 +37,11 @@ class test
 		*/
 
 		//PHP 5.6>
-		$user = 'root';
-		$password = 'root';
+		$user = 'yuancheng';
+		$password = 'testuse';
 		$db = 'test';
-		$host = '127.0.0.1';
-		$port = 8889;
+		$host = '121.41.46.89';
+		$port = 3306;
 		
 		$link = mysqli_init();
 		$success = mysqli_real_connect(
@@ -64,11 +64,11 @@ class test
 		//TODO: new mysqli() or PDO,use OO operate
 		//PHP 5.5<=
 		/*
-		$user = 'root';
-		$password = 'root';
+		$user = 'yuancheng';
+		$password = 'testuse';
 		$db = 'test';
-		$host = '127.0.0.1';
-		$port = 8889;
+		$host = '121.41.46.89';
+		$port = 3306;
 		$link = mysqli_connect(
 			"$host:$port", 
 			$user, 
@@ -84,11 +84,11 @@ class test
 		*/
 
 		//PHP 5.6>
-		$user = 'root';
-		$password = 'root';
+		$user = 'yuancheng';
+		$password = 'testuse';
 		$db = 'test';
-		$host = '127.0.0.1';
-		$port = 8889;
+		$host = '121.41.46.89';
+		$port = 3306;
 		
 		$link = mysqli_init();
 		$success = mysqli_real_connect(
